@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      // Show the modal when the page loads
+      window.onload = function () {
+        document.getElementById("modal").classList.remove("hidden");
+      };
+
+      // Close the modal
+      function closeModal() {
+        document.getElementById("modal").classList.add("hidden");
+      }
+    </script>
+  </head>
+  <body class="overflow-hidden bg-[#E4ECF7] w-full h-full relative">
+    <!-- Modal -->
+    <div id="modal" class="hidden fixed inset-0  backdrop-blur flex justify-center items-center z-50">
+      <div class="bg-white p-10 p rounded-lg shadow-lg text-center">
+        <p class="text-2xl font-semibold mb-4">Designed and developed by <br> <span class="text-[#d26754]"> Muhammad Sultan Ul Arifeen</span></p>
+        <button onclick="closeModal()" class="bg-[#0f1941] text-white px-6 py-1.5 rounded-2xl hover:bg-[#d26754] transition duration-300">
+          Close
+        </button>
+      </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="blur-sm -z-10 w-52 h-52 bg-gradient-to-r from-[#8892c2] to-[#10296e] absolute rounded-full scale-200 right-full bottom-full transform translate-x-2/4 translate-y-2/4">
+    </div>
+    <div class="blur-sm -z-10 w-52 h-52 bg-gradient-to-r from-[#d26754] to-[#E9E5C2] absolute rounded-full scale-260 left-full bottom-full transform translate-x- translate-y-2/4">
+    </div>
+
+    <!-- Main Content -->
+    <div class="z-10 w-full h-full flex flex-col justify-center items-center fixed">
+        <nav class="w-100 h-10 bg-white rounded-3xl mt-3 flex justify-evenly items-center shadow-lg">
+            <a href="#" class="font-medium text-sm">Home</a>
+            <a href="#" class="font-medium text-sm">Services</a>
+            <a href="#" class="font-medium text-sm">Portfolio</a>
+            <a href="#" class="font-medium text-sm">About</a>
+            <a href="#" class="font-medium text-sm">Contact</a>
+        </nav>
+       
+        <div class="w-full h-full flex flex-col justify-center ">
+            <p class="text-center font-sans font-medium text-5xl">
+                Digital Design Agency Specializing in <br> Front-End Web Development
+            </p>
+            <div class="w-screen h-10 justify-center items-center align-middle flex">
+            <button class="h-10 w-30 mt-10 bg-[#0f1941] text-[#ffffff] font-bold py-2 px-4 rounded-full shadow-lg hover:bg-[#d26754] hover:text-white transition duration-300 ease-in-out"> 
+                Projects
+            </button>
+            <button class="h-10 w-30 mt-10 bg-[#fff] text-[#000] font-bold ml-10 py-2 px-4 rounded-full shadow-lg hover:bg-[#d26754] hover:text-white transition duration-300 ease-in-out"> 
+                Contact
+            </button>
+        </div>
+        <div class="w-full h-100 flex flex-col justify-center ">
+           <img class="mt-35 scale-70" src="Images/home.PNG" alt="">
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
