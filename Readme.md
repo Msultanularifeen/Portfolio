@@ -5,7 +5,7 @@ A modern, responsive website for a digital design agency specializing in front-e
 ## 🚀 Live Demo
 <a href="https://msultanularifeen.github.io/Portfolio/" target="_blank">View Live Demo</a>
 
-## ✨ Features
+## ✨ Features.
 
 - **Welcome Modal**: Personalized greeting modal on page load
 - **Responsive Navigation**: Clean and modern navigation bar
