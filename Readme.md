@@ -3,7 +3,7 @@
 A modern, responsive website for a digital design agency specializing in front-end web development. Built with HTML and Tailwind CSS, featuring a clean design with interactive elements.
 
 ## 🚀 Live Demo
-[https://msultanularifeen.github.io/Portfolio/](#) <!-- Add your deployed site URL here -->
+<a href="https://msultanularifeen.github.io/Portfolio/" target="_blank">View Live Demo</a>
 
 ## ✨ Features
 
